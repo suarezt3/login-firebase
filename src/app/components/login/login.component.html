@@ -1,0 +1,11 @@
+<form class="form" [formGroup]="myForm" (ngSubmit)="submit()" >
+  <div>
+    <input type="text" placeholder="Correo" formControlName="correo">
+  </div>
+  <div>
+    <input type="text" placeholder="Password" formControlName="password">
+  </div>
+  <div>
+    <button type="submit">Login</button>
+  </div>
+</form>
